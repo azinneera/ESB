@@ -21,7 +21,7 @@ import org.wso2.carbon.identity.oauth2.stub.dto.OAuth2TokenValidationRequestDTO_
 
 import java.util.Map;
 
-public class SimpleOauthHandler extends AbstractHandler implements ManagedLifecycle {
+public class SimpleOAuthHandler extends AbstractHandler implements ManagedLifecycle {
 
     private static final String CONSUMER_KEY_HEADER = "Bearer";
     private static final String OAUTH_HEADER_SPLITTER = ",";
